@@ -1,0 +1,29 @@
+/** Semantic UI Override **/
+.ui.comments {
+  max-width: 100vw;
+}
+
+/** Custom CSS **/
+.edited {
+  color: #BBB;
+  font-style: italic;
+}
+
+.exit.chat {
+  color: #555;
+  font-style: italic;
+}
+
+.join.chat {
+  color: #555;
+  font-style: italic;
+}
+
+.update.name {
+  color: #555;
+  font-style: italic;
+}
+
+.username {
+  color: blue;
+}

@@ -1,10 +1,16 @@
 {
   "name": "chat-replay",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "private": true,
   "dependencies": {
+    "lodash": "^4.17.4",
+    "markdown-it-emoji": "^1.3.0",
+    "markdown-react-js": "^0.3.0",
+    "prop-types": "^15.5.10",
     "react": "^15.6.1",
-    "react-dom": "^15.6.1"
+    "react-dom": "^15.6.1",
+    "semantic-ui-css": "^2.2.10",
+    "semantic-ui-react": "^0.68.5"
   },
   "devDependencies": {
     "eslint": "^3.19.0",
@@ -19,6 +25,9 @@
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject",
-    "lint": "./node_modules/.bin/eslint ./"
-  }
+    "lint": "./node_modules/.bin/eslint ./",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
+  },
+  "homepage" : "http://yarunluon.github.io/chat-replay"
 }
